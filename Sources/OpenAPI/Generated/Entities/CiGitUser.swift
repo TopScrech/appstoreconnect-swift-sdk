@@ -3,7 +3,7 @@
 
 import Foundation
 
-public struct CiGitUser: Codable {
+public struct CiGitUser: Codable, Hashable {
 	public var displayName: String?
 	public var avatarURL: URL?
 
